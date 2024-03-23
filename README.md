@@ -2,4 +2,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## URL
 
-You can find the live website of this project under [https://e-comerce-0xmitroglu.vercel.app/stripe/success](https://e-comerce-0xmitroglu.vercel.app/stripe/success)
+You can find the live website of this project on [https://e-comerce-0xmitroglu.vercel.app/stripe/success](https://e-comerce-0xmitroglu.vercel.app/stripe/success)
