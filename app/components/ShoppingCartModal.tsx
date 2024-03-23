@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import Image from "next/image";
 import { useShoppingCart } from "use-shopping-cart";
 import { Button } from "@/components/ui/button";
@@ -43,7 +38,7 @@ export default function ShoppingCartModal() {
           <div className="mt-8 flex-1 overflow-y-auto">
             <ul className="my-6 divide-y divide-gray-200">
               {cartCount === 0 ? (
-                <h1 className="py-6">You don't have any items</h1>
+                <h1 className="py-6">You don&apos;t have any items</h1>
               ) : (
                 <>
                   {Object.values(cartDetails ?? {}).map((entry) => (
@@ -74,8 +69,7 @@ export default function ShoppingCartModal() {
                             <button
                               type="button"
                               className="font-medium text-primary hover:text-primary/80"
-                              onClick={() => removeItem(entry.id)}
-                            >
+                              onClick={() => removeItem(entry.id)}>
                               Remove
                             </button>
                           </div>
@@ -110,8 +104,7 @@ export default function ShoppingCartModal() {
                   className="font-medium text-primary hover:text-primary/80"
                   onClick={() => {
                     handleCartClick();
-                  }}
-                >
+                  }}>
                   Continue Shopping
                 </button>
               </p>
